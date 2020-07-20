@@ -1,0 +1,14 @@
+{
+  "name": "clongoogle",
+  "version": "1.0.0",
+  "description": "Lets go to clon of Google",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "author": "Juan Gonzalez <j3045771061@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
