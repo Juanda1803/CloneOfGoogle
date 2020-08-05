@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+}
+
+body{
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(53, 53, 53);
+}
+
+/*------------------Header------*/
+.header{
+  width: 100%;
+  height: 80px;
+}
+.header__shadow{
+  border-radius: 20px;
+  width: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+.header__shadow:hover{
+  background-color: #505050;
+}
+.header nav{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.header ul{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 300px;
+  list-style: none;
+}
+.header ul li a{
+  color: white;
+  text-decoration: none;
+}
+.header ul li a:hover{
+  color: #777;
+  text-decoration: underline;
+}
+.header-icon{
+  width: 24px;
+}
+.header-image{
+  width: 35px;
+  border-radius: 20px;
+}
+
+/*------------------Search------*/
+
+.search{
+  width: 100%;
+  text-align: center;
+}
+.search__title{
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.search__title img{
+  height: 120px;
+}
+.search__container{
+  margin: auto;
+  width: 560px;
+  border: 2px solid white;
+  border-radius: 25px;
+  background-color: white;
+  margin-bottom: 30px ;
+  display: flex;
+  align-items: center;
+}
+.search__container:hover{
+  box-shadow: 0px 0px 12px 5px black;
+}
+.search__container--input{
+  width: 500px;
+  height: 40px;
+  border: 0px;
+  outline: none;
+}
+.search__container--icon-search{
+  width: 20px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.search__container--icon-micro{
+  width: 15px;
+  margin: 0px 15px;
+  cursor: pointer;
+}
+.search-button{
+  border-radius: 5px;
+  height: 40px;
+  width: 180px;
+  margin: 15px;
+  outline: none;
+  border: none;
+}
+.search-button:hover{
+  box-shadow: 0px 0px 10px 5px black;
+}
+.search__text{
+  margin: auto;
+  margin-top: 30px;
+  color: white;
+}
+.search__text a{
+  color: #007eff;
+}
+
+
+/*------------Footer--------*/
+
+.footer{
+  width:100%;
+  background-color: #777;
+  color: white;
+}
+.footer__container{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+.footer-item-up{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  height: 30px;
+}
+.footer-item-up h3{
+  cursor: pointer;
+}
+.footer-item-down {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 30px;
+  margin: 10px;
+}
+
+.footer-item {
+  display: flex;
+}
+.footer-item h3{
+  margin-right: 10px;
+  cursor: pointer;
+}
